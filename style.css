@@ -1,0 +1,90 @@
+
+    body {
+      background-color: #121212;
+      color: #e5e5e5;
+    }
+
+    h1 {
+      font-family: 'Sheppaloe', sans-serif;
+      font-size: 4em;
+      color: #f1f1f1;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    .form-control {
+      background-color: #1e1e1e;
+      border: 1px solid #333;
+      color: #f1f1f1;
+    }
+
+    .form-control::placeholder {
+      color: #888;
+    }
+
+    .form-label {
+      color: #bbb;
+    }
+
+    .nome-item {
+      background: #1c1c1c;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+      margin-bottom: 10px;
+    }
+
+    #nomesInput:focus {
+      background-color: #2a2a2a;
+      border-color: #555;
+      color: #fff;
+    }
+
+    .btn-presenca {
+      background-color: #18e71830;
+      border: none;
+      color: #fff;
+    }
+
+    .btn-falta {
+      background-color: #ef444430;
+      border: none;
+      color: #fff;
+    }
+
+    .btn.active {
+      font-weight: bold;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    }
+
+    .presente {
+      background-color: #18e718 !important;
+      color: #a7f3d0 !important;
+    }
+
+    .falta {
+      background-color: #ef4444 !important;
+      color: #fecaca !important;
+    }
+
+    pre {
+      background: #0a0a0a;
+      color: #10ff7c;
+      padding: 12px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+
+    table {
+      background-color: #1a1a1a;
+      border-color: #333;
+    }
+
+    thead {
+      background-color: #2a2a2a;
+      color: #ddd;
+    }
+
+    footer {
+      text-align: center;
+      color: #888;
+    }
